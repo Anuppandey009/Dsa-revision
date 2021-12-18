@@ -5,12 +5,7 @@ function runProgram(input){
     for(var i=1;i<newInput.length;i++){
        var data=newInput[i].split(" ").map(Number)
        if(data[0]==1){
-         //  if(stack.length==0){
-         //     stack.push(data[1])
-         //  }
-         //  else{
-         //     stack.unshift(data[1])
-         //  }
+      
          stack.push(data[1])
        }
        if(data[0]==2){
